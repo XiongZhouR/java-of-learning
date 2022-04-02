@@ -10,12 +10,13 @@ package day04;
 
 */
 import java.util.Scanner;
+
 public class IfTest {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("请输入学生的成绩(1-100)");
         int score = scan.nextInt();
-        
+
         if (score == 100) {
             System.out.println("奖励一台BMW");
         } else if (score > 80 && score <= 90) {
